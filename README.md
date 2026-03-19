@@ -8,7 +8,7 @@ A modern, fully responsive promotional website for a premium fitness gym — bui
 
 ## 🎨 Figma Design
 
-[https://www.figma.com/design/rXGv6gv1qUUlbYlSNtfsVH/Fitness-Sports-Center?node-id=0-1&t=xi5A4HPWIgRvDWtB-1]
+[[Figma link here](https://www.figma.com/design/rXGv6gv1qUUlbYlSNtfsVH/Fitness-Sports-Center?node-id=0-1&t=xi5A4HPWIgRvDWtB-1)]
 
 ---
 
