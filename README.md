@@ -4,7 +4,7 @@ A modern, fully responsive promotional website for a premium fitness gym — bui
 
 ## 🔗 Live Link
 
-[https://fitness-sports-center.vercel.app](https://fitness-sports-center.vercel.app)
+[https://fitness-sports-center-eta.vercel.app/](https://fitness-sports-center-eta.vercel.app/)
 
 ## 🎨 Figma Design
 
