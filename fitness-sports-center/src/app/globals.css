@@ -4,6 +4,23 @@
 
 :root {
   --gold: #d4a017;
+  --bg-primary: #0d0d0d;
+  --bg-secondary: #111111;
+  --bg-card: #1a1a1a;
+  --border-color: #2a2a2a;
+  --text-primary: #ffffff;
+  --text-muted: #9ca3af;
+  --text-faint: #6b7280;
+}
+
+html.light {
+  --bg-primary: #f0f0f0;
+  --bg-secondary: #e5e5e5;
+  --bg-card: #ffffff;
+  --border-color: #d1d5db;
+  --text-primary: #111111;
+  --text-muted: #4b5563;
+  --text-faint: #6b7280;
 }
 
 html {
@@ -15,15 +32,112 @@ html {
 }
 
 body {
-  background-color: #0d0d0d;
-  color: #ffffff;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
   overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Light mode overrides */
-.light body {
-  background-color: #f5f5f5;
-  color: #111111;
+/* ── Global section backgrounds ── */
+main section {
+  transition: background-color 0.3s ease;
+}
+
+/* Alternating section backgrounds */
+section#home,
+section#services,
+section#trainers {
+  background-color: var(--bg-primary) !important;
+}
+
+section#about,
+section#membership,
+section#contact {
+  background-color: var(--bg-secondary) !important;
+}
+
+/* ── Card backgrounds ── */
+.bg-\[\#1a1a1a\] {
+  background-color: var(--bg-card) !important;
+}
+
+.bg-\[\#0d0d0d\] {
+  background-color: var(--bg-primary) !important;
+}
+
+.bg-\[\#111111\] {
+  background-color: var(--bg-secondary) !important;
+}
+
+/* ── Border colors ── */
+.border-\[\#2a2a2a\] {
+  border-color: var(--border-color) !important;
+}
+
+.border-\[\#1a1a1a\] {
+  border-color: var(--border-color) !important;
+}
+
+.border-\[\#3a3a3a\] {
+  border-color: var(--border-color) !important;
+}
+
+/* ── Text colors ── */
+.text-white {
+  color: var(--text-primary) !important;
+}
+
+.text-gray-400 {
+  color: var(--text-muted) !important;
+}
+
+.text-gray-500 {
+  color: var(--text-faint) !important;
+}
+
+.text-gray-600 {
+  color: var(--text-faint) !important;
+}
+
+.text-gray-700 {
+  color: var(--text-faint) !important;
+}
+
+/* ── Navbar ── */
+html.light nav {
+  background-color: rgba(240, 240, 240, 0.95) !important;
+}
+
+html.light nav .bg-\[\#0d0d0d\]\/95 {
+  background-color: rgba(240, 240, 240, 0.95) !important;
+}
+
+/* Mobile menu */
+html.light .bg-\[\#0d0d0d\] {
+  background-color: var(--bg-secondary) !important;
+}
+
+/* ── Inputs & Textarea ── */
+html.light input,
+html.light textarea {
+  background-color: #ffffff !important;
+  color: #111111 !important;
+}
+
+html.light input::placeholder,
+html.light textarea::placeholder {
+  color: #9ca3af !important;
+}
+
+/* ── Footer ── */
+html.light footer {
+  background-color: var(--bg-secondary) !important;
+  border-color: var(--border-color) !important;
+}
+
+/* ── Membership highlighted card ── */
+html.light .bg-\[\#1a1500\] {
+  background-color: #fefce8 !important;
 }
 
 @layer utilities {
