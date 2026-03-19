@@ -8,7 +8,7 @@ A modern, fully responsive promotional website for a premium fitness gym — bui
 
 ## 🎨 Figma Design
 
-[[Add your Figma link here](https://www.figma.com/design/rXGv6gv1qUUlbYlSNtfsVH/Fitness-Sports-Center?node-id=0-1&t=xi5A4HPWIgRvDWtB-1)]
+[[Figma link here](https://www.figma.com/design/rXGv6gv1qUUlbYlSNtfsVH/Fitness-Sports-Center?node-id=0-1&t=xi5A4HPWIgRvDWtB-1)]
 
 ---
 
@@ -58,8 +58,7 @@ A modern, fully responsive promotional website for a premium fitness gym — bui
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/fitness-sports-center.git
-cd fitness-sports-center
+git clone hhttps://github.com/Mihishan09/Fitness-Sports-Center.git
 ```
 
 ### 2. Install dependencies
@@ -117,5 +116,5 @@ fitness-sports-center/
 
 ## 👤 Author
 
-**G.M.S.Mihishan Gunasekara]**  
+**[G.M.S.Mihishan Gunasekara]**  
 [GitHub Profile](https://github.com/Mihishan09)
